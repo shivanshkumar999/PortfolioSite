@@ -1,0 +1,298 @@
+body{
+    font-family: bahnschrift;
+    background-color: #3C0919;
+}
+
+::selection{
+    background-color: #E2294F;
+    color: white;
+}
+
+.body{
+    text-align: center;
+    width: 50%;
+    position: relative;
+    top: 200px;
+    margin: auto;
+}
+
+.header{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.navbar a{
+    float: right;
+    width: 10%;
+    margin: 5px;
+    background-color: transparent;
+    color: white;
+    padding: 5px;
+    font-size: medium;
+    text-align: center;
+    border: 2px solid #3C0919;
+    transition: 0.5s;
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.navbar a:hover{
+    transition: 0.5s;
+    border-bottom:2px solid white;
+    color: white;
+}
+
+
+
+.imgbgimg{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.intro{
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.introname{
+    font-size: 40px; 
+    font-weight: bolder;
+    text-shadow: 6px 7px 2px #E2294F, -5px -6px 1px #C41E3D;
+}
+
+a{
+    color: white;
+    text-decoration:none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0;
+    width: 20%;
+    font-size: 20px;
+    transition: 0.5s;
+    position: relative;
+    top: 20px;
+}
+
+.button:hover{
+    background-color: white;
+    transition: 1s ease;
+}
+
+.button:hover > span{
+    transition: 0.5s;
+    display: inline-block;
+    width: auto;
+    font-size: 20px;
+    color: #3C0919;
+    transition: 1s ease;
+}
+
+.button:hover > i{
+    color: #7D1128;
+    transition: 1s ease;
+}
+
+menu{
+    position: relative;
+    top: 75px;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+}
+
+span{
+    font-size: 0px;
+    width: 0px;
+    transition: 1s ease;
+}
+
+.about{
+    width: 100%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    top: 100px;
+    border-bottom: 5px solid #C41E3D;
+
+}
+
+.about p{
+    word-wrap: break-word;
+}
+
+.aboutimg{
+    width: 15%;
+    border-radius: 50%;
+    border: 2px solid#C41E3D;
+}
+
+.aboutspan{
+    color: #C41E3D;
+}
+
+.contact{
+    position: relative;
+    top: 100px;
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255, 0.5);
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+.contactform{
+    text-align: center;
+    /* border: 2px solid #7D1128; */
+    padding: 10px;
+}
+
+.contactbody{
+    background-image: url('/static/x.jpg');
+    background-repeat: no-repeat;
+}
+
+form{
+    text-align: center;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+}
+
+.contact h2{
+    width: 50%;
+    margin-left: auto;
+
+}
+
+input{
+    width: 75%;
+    padding: 5px;
+    margin: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+input[type=submit]{
+    background-color: #C41E3D;
+    border: none;
+    cursor: pointer;
+}
+
+input:focus{
+    outline: none;
+}
+
+svg:hover{
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(355deg) brightness(104%) contrast(100%);
+    transition: 0.2s ease all;
+    cursor: pointer;
+}
+
+.socialmediabox{
+    width: 50%;
+    margin-left: auto;
+}
+
+.socialmediabox a{
+    display: inline-flex;
+    text-align: center;
+    position: relative;
+    top: 0;
+    width: auto;
+}
+
+/* .projectbody{
+
+} */
+
+.projectscontainer{
+    width: 75%;
+    color: white;
+    margin: auto;
+    position: relative;
+    display: flex;
+    transition: 0.5s ease;
+    top: 125px;
+}
+
+.projectslist ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.projectscontainer ul li{
+    padding: 10px;
+    margin: 15px;
+    list-style-type: none;
+}
+
+.projectscontainer a{
+    padding: 0;
+    margin: 0;
+    border: 2px solid transparent;
+    width: 100%;
+    position: relative;
+    top: 0;
+    background-color: #C41E3D;
+}
+
+.projectslist .active{
+    background-color: #E2294F;
+}
+
+.projectscontainer button:hover{
+    background-color: #FF2C55;
+}
+
+.projectcontent{
+    background-color: white;
+    color: black;
+    width: 75%;
+    z-index: 1;
+    padding: 15px;
+}
+
+.projectslist button:focus{
+    background-color: #E2294F;
+}
+
+button{
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid transparent;
+    background-color: #C41E3D;
+    color: white;
+    cursor: pointer;
+}
+
+#projectcontentbody{
+    text-align: center;
+    margin: auto;
+    transition: 0.5s ease;
+}
