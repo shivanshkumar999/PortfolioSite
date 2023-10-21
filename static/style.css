@@ -206,10 +206,19 @@ input:focus{
     outline: none;
 }
 
-svg:hover{
+.contacticons:hover{
     filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(355deg) brightness(104%) contrast(100%);
     transition: 0.2s ease all;
     cursor: pointer;
+}
+
+.contactformbutton svg{
+    width: 25px;
+}
+
+.contactformbutton{
+    width:75%;
+    margin: auto;
 }
 
 .socialmediabox{
@@ -275,6 +284,7 @@ svg:hover{
     width: 75%;
     z-index: 1;
     padding: 15px;
+    position: relative;
 }
 
 .projectslist button:focus{
@@ -295,4 +305,17 @@ button{
     text-align: center;
     margin: auto;
     transition: 0.5s ease;
+}
+
+.mailsentmsg{
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+.mailsentmsg p{
+    color: white;
+    margin:auto;
+    background-color: rgb(255, 44, 85, 0.5);
+    padding: 10px;
 }
