@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Projects - Shivansh Kumar
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        <script>
+            function show(clicked){
+                buttonsid = ['emailbot','colorify','chatgptclone','sentimentanalysis','ner'];
+                const ele = document.getElementById('projectcontentbody');
+                if (clicked == 'emailbot'){
+                    ele.innerHTML = 'This is mf emailbot';
+                    button[0].classList.toggle('active');
+                    button[1].classList.toggle('');
+                    button[2].classList.toggle('');
+                    button[3].classList.toggle('');
+                    button[4].classList.toggle('');
+                }
+                if (clicked == 'colorify'){
+                    ele.innerHTML = 'This is mf colorify';
+                    button[0].classList.toggle('');
+                    button[1].classList.toggle('active');
+                    button[2].classList.toggle('');
+                    button[3].classList.toggle('');
+                    button[4].classList.toggle('');
+                }
+                if (clicked == 'chatgptclone'){
+                    ele.innerHTML = 'This is mf chatgptclone';
+                    button[0].classList.toggle('');
+                    button[1].classList.toggle('');
+                    button[2].classList.toggle('active');
+                    button[3].classList.toggle('');
+                    button[4].classList.toggle('');
+                }
+                if (clicked == 'sentimentanalysis'){
+                    ele.innerHTML = 'This is mf sentimentanalysis';
+                    button[0].classList.toggle('');
+                    button[1].classList.toggle('');
+                    button[2].classList.toggle('');
+                    button[3].classList.toggle('active');
+                    button[4].classList.toggle('');
+                }
+                if (clicked == 'ner'){
+                    ele.innerHTML = 'This is mf ner';
+                    button[0].classList.toggle('');
+                    button[1].classList.toggle('');
+                    button[2].classList.toggle('');
+                    button[3].classList.toggle('');
+                    button[4].classList.toggle('active');
+                }
+            }
+        </script>
+    </head>
+    <body>
+        
+    <body class="projectbody">
+        <div style="display: block;margin-right: auto;margin-left: auto;width: 75%; ">
+            <div class="header">
+                    <div class="navbar">
+                        <a href="/contact">Contact Me</a>
+                        <a href="/about">About Me</a>
+                        <a href="/">Home</a>
+                    </div>
+                    </div>
+            </div>
+            <div class="projectscontainer">
+                <div class="projectslist">
+                    <ul>
+                        <button class="" onclick="show(this.id)" href="" id="emailbot"><li>Email Bot</li></button>
+                        <button class="" onclick="show(this.id)" href="" id="colorify"><li>Colorify</li></button>
+                        <button class="" onclick="show(this.id)" href="" id="chatgptclone"><li>ChatGPT Clone</li></button>
+                        <button class="" onclick="show(this.id)" href="" id="sentimentanalysis"><li>Sentiment Analysis</li></button>
+                        <button class="" onclick="show(this.id)" href="" id="ner"><li>Name Entity Recognition</li></button>
+                    </ul>
+                </div>
+                <div class="projectcontent">
+                    <p id="projectcontentbody">Hey Welcome, Wanna see my projects. <br> Toggle the menu on the left.</p>
+                </div>
+            </div>
+    </body>
+</html>
