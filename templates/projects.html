@@ -12,15 +12,15 @@
                 buttonsid = ['emailbot','colorify','chatgptclone','sentimentanalysis','ner'];
                 const ele = document.getElementById('projectcontentbody');
                 if (clicked == 'emailbot'){
-                    ele.innerHTML = 'This is mf emailbot';
+                    ele.innerHTML = 'This is a Bot made using <br> RASA OPEN SOURCE 3x. <br><br> It uses yml and python to code stories, rules and actions file. <br> It will send mail to desired email address. <br><br> Just say, "Send a mail to xyz@gmail.com"';
                     button[0].classList.toggle('active');
                     button[1].classList.toggle('');
                     button[2].classList.toggle('');
                     button[3].classList.toggle('');
-                    button[4].classList.toggle('');
+                    button[4].classList.toggle(''); 
                 }
                 if (clicked == 'colorify'){
-                    ele.innerHTML = 'This is mf colorify';
+                    ele.innerHTML = 'This project uses CNN pre-trained model which can colorize black and white images. <br><br> This project is based on a research done by Zhang et al 2016 where they predict the "a" and "b" channel by entering the value of "l" channel and then adding the a and b values to l to make complete LAB image, which will then converted to RGB image and can be downloaded.';
                     button[0].classList.toggle('');
                     button[1].classList.toggle('active');
                     button[2].classList.toggle('');
@@ -28,7 +28,7 @@
                     button[4].classList.toggle('');
                 }
                 if (clicked == 'chatgptclone'){
-                    ele.innerHTML = 'This is mf chatgptclone';
+                    ele.innerHTML = 'This is a Flask web app made using python and html. <br><br> It uses Huggingchat API which uses Meta`s LLAMA 2 model. <br><br> Basically it is a generative AI model which just works like ChatGPT 3.5. ';
                     button[0].classList.toggle('');
                     button[1].classList.toggle('');
                     button[2].classList.toggle('active');
@@ -36,7 +36,7 @@
                     button[4].classList.toggle('');
                 }
                 if (clicked == 'sentimentanalysis'){
-                    ele.innerHTML = 'This is mf sentimentanalysis';
+                    ele.innerHTML = 'I did Sentiment Analysis on British Airways Reviews which I picked from a site named Skytrax. <br><br> I used NLP to classify the review as negative and positive using the Sentiment polarity scores. <br><br> If the score is >0.5 then it is positive else it is negative.';
                     button[0].classList.toggle('');
                     button[1].classList.toggle('');
                     button[2].classList.toggle('');
@@ -44,7 +44,7 @@
                     button[4].classList.toggle('');
                 }
                 if (clicked == 'ner'){
-                    ele.innerHTML = 'This is mf ner';
+                    ele.innerHTML = 'This is a project which is a basic project used to draw Personally Identifiable Information from the data entered. <br><br> I used the `en_web_core_sm` model from spacy library in python to perform this project. Other methods like NLP also can be used for this project.';
                     button[0].classList.toggle('');
                     button[1].classList.toggle('');
                     button[2].classList.toggle('');
@@ -78,6 +78,7 @@
                 </div>
                 <div class="projectcontent">
                     <p id="projectcontentbody">Hey Welcome, Wanna see my projects. <br> Toggle the menu on the left.</p>
+                    <div style="text-align: center; position: absolute; bottom: 5px; width: 100%; left: 0;"><a style="color: #FF2C55; background-color: transparent;" href="https://github.com/shivanshkumar999">Checkout Shivansh's Github Here!!!</a></div>
                 </div>
             </div>
     </body>
