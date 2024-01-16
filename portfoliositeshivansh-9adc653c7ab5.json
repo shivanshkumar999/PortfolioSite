@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "portfoliositeshivansh",
+  "private_key_id": "9adc653c7ab594c199658b20ee2501e93d9ed26f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDEF/5lWRMwOc0y\n7tFu6E6NpJNOdmorWlGGJmO29s1Cv9JZ54PRy7N1dvouM/QB2ArGjepcxu3jdMXw\nDSbcCpx4jd7ReiIBYS28u1tUAg0Hxc0UZzMr3WkECstbMr+M825SZ1jk1Puw0AlH\nHjoPNAyTdvB+mXRaZS34w8Av1sVja5scXk7sx6o3wX1O4O1Vt1zm9xCthJRmiG9B\nS8LDikWbD74P6C/XYOKJzUFqRMZImq42uEJ+Hx3huY2SX1NID4CwVjFfPMB5tfgW\nAH6wMT8G74CnZRAK+/xfYgmRFcjjMTheidy4wy9ddX3sJ18Bti77nhOW45Aw+K/b\niGdjY4XFAgMBAAECggEAD7SgQnvE5qrqfXbVPV3L1NpmlfU0Aa7lMqpmeCQCQqNc\ndKjvTOFUyUazOPoeQ/uKuWZqa+3e5cXXiKd1AlCzQZCTVRHEIXooEKKs6OiVJJc6\nGrU9SvkbzSAUM4S4BNEGeAEhBIrucbXn2FNacRdJHpJ7Jpih0g+ig/chsHMyMgkr\nZFiQB+wtYXZrR9Ds2TKr7rXv3PcRD9iqFh5eaf06xEuQIIqqiyVY8neC7pZYoauo\nSCXLPkzLGONhI6u5aFKGEZwUwPIhmBEbi0lBiTd8XDpX1AqxJu4tMGKjL4pja1x3\nWHPNSPg5lxPehZgZj22o+Pebui/BnWoCu/JAKapU4QKBgQDoPU9Y3U7tlBQk4pSW\n+gexgooy6Z/Ak9TaX7OkISybHiO7pKP2es6zgI25ysSvf3kCxAMMyWjAAr4NUAgA\n+OUwuIimlz/8kGn9UqOedqcUaGHTTNaQzVEt75mLAz7EfjZ5DUsh6vzEWN0uaM84\n8Iifs9yukgld5nh9eNOvuYynXQKBgQDYJ/k9Vxs6SqF1L8Na/EOvCA8ZnLvoNrIf\nKHw+zkb/z92Z8i1+FuHfD3fwR/3C/vX5GfDKA7hMVDSDYMfuLgEU5klnOcazUcd8\nuBs9D+NXQkr0lvVxjfozOCTKVfgJhxN9Fw3GtxJT1j1rriKXJEkYimW4O4zOZjiX\n7eZP+t95iQKBgB6vMxOnsez7+qlg8ob8JBYVDFNrwLq+DYqIyIBwDae1FL2PJEbF\ntRfMbW1V2CTj78Yoxcpjth5gfmHd6CDQwd9tEkkIhODG5+obiBjAzpSIshwr89GP\n/yDVnnDajemCT4ow8nNZy+nZX+fo2zBHv5VyOz8pdmlcsSDK3RVDq8zVAoGAH9nc\nDx7bwz4mBneQSMLtUkhUuUhwI+qTWqYDkNmieqVtmPann3HNvKmx2bUx/l7FbfxV\nj972dEDgMA+9xin/PM4mONC5p8jAJW+Xi+rgbAY3t0zbQ+1Q1eVK/ommb/j4dTFF\ndWeaisIB8PEK5cyR/My/6mLT/8HuSuziSBzGe0kCgYArVnh3sm1ATSqZ+oEfx3jx\nIYMRyxpd+RMxZlt0I8SGO79GL4cTVxrRCGSoOHwJRenum1Ur5LdhmNpC6kM1QSOx\nA41L0SSNmEIx4j0PO9R//KpRdcqI10xYAXS1n1vNqDYPCMzz7Jo5R7otYUDqnxoG\nMdBChZYRt0DC5uPVakufRg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "shivanshkumar@portfoliositeshivansh.iam.gserviceaccount.com",
+  "client_id": "117116016372670491934",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/shivanshkumar%40portfoliositeshivansh.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
