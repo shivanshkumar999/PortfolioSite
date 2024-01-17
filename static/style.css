@@ -1,71 +1,10 @@
 body{
     font-family: bahnschrift;
-<<<<<<< HEAD
     background-color: #3C0919;
 }
 
 ::selection{
     background-color: #E2294F;
-=======
-    background-color: #0E402D;
-    /* cursor: url('/static/icons8-cursor-48.png'), animated ; */
-}
-
-
-.cursor{
-    position: fixed;
-    width: 50px;
-    height: 50px;
-    border: 2.5px solid #9FCC2E;
-    background-color: rgb(255, 255, 255, 0.5);
-    border-radius: 50%;
-    animation: changebrdrclr 2s infinite;
-    left: 0;
-    top: 0;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    transition: .1s;
-  }
-  
-  .cursor2{
-    position: fixed;
-    width: 8px;
-    height: 8px;
-    background-color: white;
-    color: white;
-    animation: changeclr 2s infinite;
-    border-radius: 50%;
-    left: 0;
-    top: 0;
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    transition: .15s;
-  }
-  
-  .content:hover ~ .cursor{
-    transform: translate(-50%, -50%) scale(1.5);
-    background-color: #c6c6c6;
-    opacity: .5;
-  }
-  
-  .content:hover ~ .cursor2{
-    opacity: 0;
-  }
-
-  /* @keyframes changeclr{
-    0%{background-color: red;}
-    50%{background-color: blue;}
-    100%{background-color:yellow;}
-  }
-  @keyframes changebrdrclr{
-    0%{border: 2.5px solid yellow;}
-    50%{border: 2.5px solid blue;}
-    100%{border:2.5px solid red;}
-  } */
-
-::selection{
-    background-color: #5A6650;
->>>>>>> 25d7359 (git pull)
     color: white;
 }
 
@@ -97,11 +36,7 @@ body{
     padding: 5px;
     font-size: medium;
     text-align: center;
-<<<<<<< HEAD
     border: 2px solid #3C0919;
-=======
-    border: 2px solid white;
->>>>>>> 25d7359 (git pull)
     transition: 0.5s;
     text-decoration: none;
     word-wrap: break-word;
@@ -109,11 +44,7 @@ body{
 
 .navbar a:hover{
     transition: 0.5s;
-<<<<<<< HEAD
     border-bottom:2px solid white;
-=======
-    border-bottom:2px solid #9FCC2E;
->>>>>>> 25d7359 (git pull)
     color: white;
 }
 
@@ -126,10 +57,6 @@ body{
     right: 0;
     width: 100%;
     z-index: -1;
-<<<<<<< HEAD
-=======
-    opacity: 0.25;
->>>>>>> 25d7359 (git pull)
 }
 
 .intro{
@@ -141,11 +68,7 @@ body{
 .introname{
     font-size: 40px; 
     font-weight: bolder;
-<<<<<<< HEAD
     text-shadow: 6px 7px 2px #E2294F, -5px -6px 1px #C41E3D;
-=======
-    text-shadow: 6px 7px 2px #9FCC2E, -5px -6px 1px #98BC3D;
->>>>>>> 25d7359 (git pull)
 }
 
 a{
@@ -172,20 +95,12 @@ a{
     display: inline-block;
     width: auto;
     font-size: 20px;
-<<<<<<< HEAD
     color: #3C0919;
-=======
-    color: #5A6650;
->>>>>>> 25d7359 (git pull)
     transition: 1s ease;
 }
 
 .button:hover > i{
-<<<<<<< HEAD
     color: #7D1128;
-=======
-    color: #5A6650;
->>>>>>> 25d7359 (git pull)
     transition: 1s ease;
 }
 
@@ -211,11 +126,7 @@ span{
     padding: 10px;
     position: relative;
     top: 100px;
-<<<<<<< HEAD
     border-bottom: 5px solid #C41E3D;
-=======
-    border-bottom: 5px solid #5A6650;
->>>>>>> 25d7359 (git pull)
 
 }
 
@@ -226,19 +137,11 @@ span{
 .aboutimg{
     width: 15%;
     border-radius: 50%;
-<<<<<<< HEAD
     border: 2px solid#C41E3D;
 }
 
 .aboutspan{
     color: #C41E3D;
-=======
-    border: 2px solid#295135;
-}
-
-.aboutspan{
-    color: #295135;
->>>>>>> 25d7359 (git pull)
 }
 
 .contact{
@@ -262,11 +165,7 @@ span{
 }
 
 .contactbody{
-<<<<<<< HEAD
     background-image: url('/static/x.jpg');
-=======
-    background-image: url('/static/Images Wallpaper.jfif');
->>>>>>> 25d7359 (git pull)
     background-repeat: no-repeat;
 }
 
@@ -298,11 +197,7 @@ input::placeholder{
 }
 
 input[type=submit]{
-<<<<<<< HEAD
     background-color: #C41E3D;
-=======
-    background-color: #295135;
->>>>>>> 25d7359 (git pull)
     border: none;
     cursor: pointer;
 }
@@ -339,13 +234,10 @@ input:focus{
     width: auto;
 }
 
-<<<<<<< HEAD
 /* .projectbody{
 
 } */
 
-=======
->>>>>>> 25d7359 (git pull)
 .projectscontainer{
     width: 75%;
     color: white;
@@ -353,11 +245,7 @@ input:focus{
     position: relative;
     display: flex;
     transition: 0.5s ease;
-<<<<<<< HEAD
     top: 125px;
-=======
-    /* top: 125px; */
->>>>>>> 25d7359 (git pull)
 }
 
 .projectslist ul{
@@ -379,7 +267,6 @@ input:focus{
     width: 100%;
     position: relative;
     top: 0;
-<<<<<<< HEAD
     background-color: #C41E3D;
 }
 
@@ -389,38 +276,19 @@ input:focus{
 
 .projectscontainer button:hover{
     background-color: #FF2C55;
-=======
-    background-color: #295135;
-}
-
-.projectslist .active{
-    background-color: #0E402D;
-}
-
-.projectscontainer button:hover{
-    background-color: #9FCC2E;
->>>>>>> 25d7359 (git pull)
 }
 
 .projectcontent{
     background-color: white;
     color: black;
     width: 75%;
-<<<<<<< HEAD
     z-index: 1;
-=======
-    z-index: -1;
->>>>>>> 25d7359 (git pull)
     padding: 15px;
     position: relative;
 }
 
 .projectslist button:focus{
-<<<<<<< HEAD
     background-color: #E2294F;
-=======
-    background-color: #0E402D;
->>>>>>> 25d7359 (git pull)
 }
 
 button{
@@ -428,11 +296,7 @@ button{
     width: 100%;
     font-size: 15px;
     border: 2px solid transparent;
-<<<<<<< HEAD
     background-color: #C41E3D;
-=======
-    background-color: #295135;
->>>>>>> 25d7359 (git pull)
     color: white;
     cursor: pointer;
 }
@@ -454,8 +318,4 @@ button{
     margin:auto;
     background-color: rgb(255, 44, 85, 0.5);
     padding: 10px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 25d7359 (git pull)
